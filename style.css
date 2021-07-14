@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fullscreen{
+    background-color: rgb(227, 239, 255);
+}
+
+/* css for header */
+.top{
+    height: 60px;
+    width: 100%;
+    /* background-color: #05535e; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    width:90%;
+    /* background-color:rgb(105, 178, 207); */
+    display: flex;
+}
+.logo{
+    height: 60px;
+    width: 30%;
+    /* background-color: greenyellow; */
+    font-size: 40px;
+    font-family: Segoe UI;
+    text-align: center ;
+    font-weight: bold;
+    color: honeydew;
+    line-height: 60px;
+}
+.nav{
+    height: 60px;
+    width: 35%;
+    /* background-color: indianred; */
+    display: flex;
+}
+.header_container{
+    justify-content: space-between;
+}
+
+
+
+.nav-item{
+    width:20%;
+    height: 60px;
+    /* background-color: gray ; */
+    text-align: center;
+    line-height: 60px;
+    font-family: Segoe UI;
+    color: honeydew;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-item:hover{
+    background-color: honeydew;
+    color:#05535e ;
+    transition: 0.5s;
+}
+
+/* Css for banner  */
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color:rgb(138, 240, 235);
+    background-image: url('./Images/Back.jpeg');
+    background-size: cover; 
+}
+
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5 );
+    display: flex;
+    align-items: center;
+}
+.banner_text{
+    height: 350px;
+    width: 50%;
+    background-color: rgba(5,68,94,0.5 );
+    display: flex;
+    align-items: center;
+    color: honeydew;
+    font-family: Segoe UI;
+
+
+}
+.banner_title{
+    font-size: 50px ;
+    margin-bottom: 10px;
+}
+.banner_desc{
+    margin-bottom: 15px;   
+}
+.padd{
+    padding: 20px;
+    /* background-color: red; */
+
+}
+
+.banner_btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border: 3px solid whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.banner_btn:hover{
+    background-color: whitesmoke;
+    color:rgba(5,68,94,1)  ;
+}
+
+/* Css for Services */
+
+.Services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(199, 199, 199, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.services_container{
+    margin-top: 50px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 400px;
+    width: 49%;
+    background-color: whitesmoke;
+    display: flex;
+    margin-top: 20px;
+
+}
+h1{
+    font-family: Segoe UI;
+}
+.service_img{
+    height: 400px;
+    width: 40%;
+    /* background-color: teal; */
+    display: flex;
+    overflow: hidden;
+}
+.service_padd{
+    padding: 20px;
+}
+.service_content{
+    height: 400px;
+    width: 60%;
+    /* background-color:tomato; */
+    display: flex;
+    align-items: center;
+}
+.service_btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    background-color: #05535e ;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.service_btn:hover{
+    background-color:rgba(177, 177, 177, 0.5);
+    color:#05535e ;
+}
+.service_title{
+    margin-bottom: 15px;
+}
+.service_desc{
+    margin-bottom: 15px;
+}
+
+/* Css for about  */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: rosybrown; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Segeo UI;
+    align-items: center;
+}
+
+.about_container{
+    margin-top: 30px;
+    line-height: 30px;
+    font-family: Segoe UI;
+    display: inline;
+}
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color:gray ;
+}
+
+/* Css for highlight */
+
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color:rgba(5,68,94,1) ;
+    display: flex;
+    justify-content: center;
+}
+.highlight_container{
+    justify-content: space-between;
+}
+.high_ele{
+    width: 22%;
+    height: 150px;
+    background-color:rgba(91, 209, 255, 0.432);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color: whitesmoke;
+} 
+.high_title{
+    font-size: 50px;
+}
+.high_desc{
+    font-size: 25px;
+}
+
+/* Css for get a quote */
+
+.quote{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    /* background-color: seagreen; */
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI ;
+}
+.quote_container{
+    flex-direction:column;
+    align-items: center;
+}
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.quote_btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    background-color: #05535e ;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.quote_btn:hover{
+    background-color: whitesmoke;
+    color:rgba(5,68,94,1);
+}
+
+/* Css for portfolio */
+
+.portfolio{
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(199, 199, 199, 0.5);
+    font-family: Segeo UI;
+}
+.portfolio_container{
+    flex-wrap: wrap;
+    /* margin-top: 30px ; */
+}
+.project{
+    width: 25%;
+    height: 300px;
+    background-color: slateblue;
+    display: flex;
+}
+.project_1{
+    background-image: url(https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
+.project_2{
+    background-image: url(https://images.pexels.com/photos/1058959/pexels-photo-1058959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_3{
+    background-image: url(https://images.pexels.com/photos/5126268/pexels-photo-5126268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}    
+.project_4{
+    background-image: url(https://images.pexels.com/photos/370984/pexels-photo-370984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_5{
+    background-image: url(https://images.pexels.com/photos/949132/pexels-photo-949132.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
+.project_6{
+    background-image: url(https://images.pexels.com/photos/1370298/pexels-photo-1370298.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_7{
+    background-image: url(https://images.pexels.com/photos/385997/pexels-photo-385997.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
+.project_8{
+    background-image: url(https://images.pexels.com/photos/1337753/pexels-photo-1337753.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_title{
+    color: honeydew;
+    background-color:rgba(5,68,94,0.5 ) ;
+    height: 150px;
+    width: 100%;
+    text-indent: 20px;
+    line-height: 150px;
+    cursor: pointer;
+}
+.project_title:hover{
+    height: 300px;
+    transition: 0.4s;
+}
+
+/* Css for footer */
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #05535e;
+    display: flex;
+    justify-content: center;
+
+}
+.footer_child{
+    height: 300px;
+    width: 25%;
+    /* background-color: khaki; */
+    font-family: Segoe UI;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footer_child_1{
+    align-items: center;
+    padding-left: 40px;
+    color: honeydew;
+    font-size: 30px;
+}
+ul{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.first{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_btn{
+    cursor:pointer;
+    font-weight: 500;
+}
+.footer_btn:hover{
+    background-color: honeydew;
+    color: #05535e;
+}
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_container{
+    justify-content: space-evenly; 
+    width: 170px; 
+} 
+.social_icon{
+    height: 35px;
+    width: 35px;
+    /* background-color: gray; */
+}
+.si1{
+    background-image: url('./Images/386622_facebook_icon.png');
+    background-size: cover;
+    cursor: pointer;
+}
+.si2{
+    background-image: url('./Images/317725_linkedin_social_icon\ \(1\).png');
+    background-size: cover;
+    cursor: pointer;
+}
+.si3{
+    background-image: url('./Images/3146786_instagram_logo_icon.png');
+    background-size: cover;
+    cursor: pointer;
+}
+.si4{
+    background-image: url('./Images/7115264_new_logo_gmail_icon.png');
+    background-size: cover;
+    cursor: pointer;
+}
